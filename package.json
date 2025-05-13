@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "chart.js": "^4.4.9",
+    "flowbite": "^3.1.2",
+    "html2canvas": "^1.4.1",
+    "sweetalert2": "^11.19.1",
+    "tailwindcss": "^4.1.4"
+  },
+  "name": "serbaada1",
+  "version": "1.0.0",
+  "description": "nanti dibuat",
+  "main": "serbaada1/src/resources/views/pages/dasbor.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i src/resources/css/input.css -o public/resources/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

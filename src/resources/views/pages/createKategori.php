@@ -2,7 +2,7 @@
 require '../../php/kategoriProses.php';
 require '../../../database/connection.php';
 
-require $_SERVER['DOCUMENT_ROOT'] . '/serbaada/src/resources/views/components/header.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/serbaada1/src/resources/views/components/header.php';
 
 
 $id_kategori = $_GET['id_kategori'] ?? null;

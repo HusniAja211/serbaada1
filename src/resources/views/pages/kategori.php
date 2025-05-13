@@ -53,15 +53,13 @@ require "../components/sidebar.php";
       </table>
    </div>
 
-   <!-- Pagination
-   <div class="absolute bottom-16 left-4 flex justify-center kategoris-center space-x-4 mb-6 w-full">
-      <?php require $_SERVER['DOCUMENT_ROOT'] . '/serbaada/src/resources/views/components/pagination.php'; ?>
-   </div> -->
 
-   <!-- Tombol tambah data -->
+
+     <!-- Tombol tambah data -->
    <div class="absolute bottom-4 left-4">
       <a href="createKategori.php" class="inline-block bg-sky-500 text-white px-6 py-2 rounded hover:bg-sky-600">Tambah Data</a>
    </div>
+
 </main>
 
 <?php 

@@ -203,14 +203,7 @@ $pesanans = $_SESSION['pesanan'] ?? [];
          </button>
          </div>
       </form>
-    
-
 </div>
-
-    <!-- Pagination -->
-   <!-- <div class="absolute bottom-16 left-4 flex justify-center kategoris-center space-x-4 mb-6 w-full">
-   <?php require $_SERVER['DOCUMENT_ROOT'] . '/serbaada/src/resources/views/components/pagination.php'; ?>
-   </div> -->
 
 </main>
 

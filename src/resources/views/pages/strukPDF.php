@@ -83,7 +83,7 @@ $dompdf->setPaper('A6', 'portrait');
 $dompdf->render();
 
 // Path penyimpanan
-$saveDir = dirname(__DIR__, 3) . '../../../../public/resources/img/gambarStruk/';
+$saveDir = $_SERVER['DOCUMENT_ROOT'] . '/serbaada1/public/resources/img/gambarStruk/';
 $counterFile = $saveDir . 'last_id.txt';
 
 // Pastikan folder ada

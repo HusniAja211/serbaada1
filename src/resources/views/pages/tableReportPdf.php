@@ -59,14 +59,14 @@ $dompdf->setPaper('A6', 'portrait');
 $dompdf->render();
 
 // Path penyimpanan
-$saveDir = dirname(__DIR__, 3) . '../../../../public/resources/img/gambarLaporan/table/';
+$saveDir = $_SERVER['DOCUMENT_ROOT'] . '/serbaada1/public/resources/img/gambarLaporan/table/';
 $counterFile = $saveDir . 'last_id.txt';
 
 // Pastikan folder ada
 if (!is_dir($saveDir)) mkdir($saveDir, 0777, true);
 
 // Nama file
-$filename = $tanggal . '_strukTable.pdf';
+$filename = $tanggal . '_ReportTable.pdf';
 $savePath = $saveDir . $filename;
 
 // Simpan PDF ke server

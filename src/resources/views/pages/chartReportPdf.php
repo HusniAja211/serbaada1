@@ -80,10 +80,10 @@ $dompdf->setPaper('A6', 'portrait');
 $dompdf->render();
 
 // Simpan file
-$saveDir = $_SERVER['DOCUMENT_ROOT'] . '/public/resources/img/gambarLaporan/chart/';
+$saveDir = $_SERVER['DOCUMENT_ROOT'] . '/serbaada1/public/resources/img/gambarLaporan/chart/';
 if (!is_dir($saveDir)) mkdir($saveDir, 0777, true);
 
-$filename = $tanggal . '_strukChart.pdf';
+$filename = $tanggal . '_ReportChart.pdf';
 $savePath = $saveDir . $filename;
 file_put_contents($savePath, $dompdf->output());
 
